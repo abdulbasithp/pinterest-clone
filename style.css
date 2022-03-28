@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 5rem;
+  width: 100%;
+  /* background-color: lightblue; */
+}
+.logo {
+  display: inline-block;
+ 
+}
+.menu-bar {
+  padding-top: 15px;
+  display: flex;
+  position: fixed;
+  background-color: white;
+  height: 4rem;
+  width: 100%;
+}
+
+/* logo */
+.pinterest-logo {
+  padding-top: 10px;
+  padding-left: 23px;
+  float: left;
+}
+
+#home-button {
+  float: left;
+  width: 4.5rem;
+  height: 3rem;
+  margin: 1px 4px;
+  border: 0;
+  border-radius: 25px;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+}
+
+#today-button {
+  float: left;
+  width: 4.5rem;
+  height: 3rem;
+  margin: 1px 4px;
+  border: 0;
+  border-radius: 25px;
+  font-size: 1rem;
+  background-color: white;
+}
+
+/* search bar */
+.search-box {
+ background-color: #e8e8e8;
+ margin-left: 1rem;
+ width: 55rem;
+ align-items: center;
+ margin-right: 0;
+ display: flex;
+ border-radius: 2rem;
+ height: 3rem;
+}
+.search-icon {
+padding-left: 1rem;
+padding-top: 0.3rem;
+  width: 1.4rem;
+}
+.search-text {
+  padding-left: 0.3rem;
+}
+.search-area {
+  width: 52rem;
+  height: 3rem;
+  border-radius:0 2rem 2rem 0;
+  font-size: 1rem;
+  border: 0;
+  background-color: #e8e8e8;
+  outline: none;
+}
+.search-area::placeholder {
+  padding-left: 1rem;
+}
+
+/* logo after search */
+.first-icons {
+  border-radius: 22px;
+}
+.icons {
+  
+  align-items: center;
+
+}
+#bell-icon {
+  padding: 0.5rem;
+
+width: 1.8rem;
+height: 1.8rem;
+}
+#message-icon{
+  padding: 0.5rem;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+#profile-icon{
+  padding: 0.5rem;
+  width: 1.8rem;
+height: 1.8rem;
+}
+#arrow-icon{
+  padding: 0.5rem;
+  width: 1.8rem;
+height: 1.8rem;
+}
+
+/* body of pinterest */
+.pinterest-body {
+  margin: 0 3.5%;
+  display: flex;
+ 
+}
+.col {
+height: 150rem;
+width: 20%;
+}
+.tiles {
+  width: 93%;
+  border-radius: 30px;
+  background-color: grey;
+  
+}
+
+/* column 1 */
+.overlay{
+  display: flex;
+  width: 100%;
+  object-fit: cover;
+  padding-bottom: 3rem;
+}
+.col1-1 {
+  height: 20rem;
+  
+
+}
+.col1-2 {
+  height: 21rem;
+ 
+}
+.col1-3 {
+  
+  height: 18rem;
+  
+}
+.col1-4 {
+
+  height: 12rem;
+ 
+}
+.col1-5 {
+ 
+  height: 12rem;
+  
+}
+
+/* hovers */
+.tiles:hover {
+  opacity: 0.5;
+  
+  
+}
+.overlay:hover .tiles {
+  -webkit-transform: scale(1.1);
+  -webkit-transition: .3s ease-in-out;
+}
+
+#today-button:hover {
+  background-color: #e8e8e8;
+  color: black;
+}
+#home-button:hover {
+  background-color:#e8e8e8;
+  color: #000000;
+}
+#message-icon:hover {
+  background-color: #e8e8e8;
+}
+#bell-icon:hover {
+  background-color: #e8e8e8;
+}
+#profile-icon:hover {
+  background-color: #e8e8e8;
+}
+#arrow-icon:hover {
+  background-color: #e8e8e8;
+}
